@@ -2,6 +2,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "SampleSDK"
   spec.version      = "1.0.0"
+  s.ios.deployment_target = '11.0'
   spec.summary      = "A deom of sample sdk."
   spec.description  = "This sdk is used to install another pod in it and use it for futher referecne"
   spec.homepage     = "https://github.com/OmarIbbu/SampleSDK"
@@ -10,5 +11,4 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/OmarIbbu/SampleSDK.git", :tag => "#{spec.version}" }
   spec.source_files       = "SampleSDK"
   spec.dependency 'Alamofire'
-
 end
