@@ -9,5 +9,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "OmarIbbu" => "omar17farooq@gmail.com" }
   spec.source       = { :git => "https://github.com/OmarIbbu/SampleSDK.git", :tag => "#{spec.version}" }
   spec.source_files       = "SampleSDK"
+  spec.dependency 'Alamofire'
 
 end
