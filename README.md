@@ -1,2 +1,2 @@
 # SampleSDK
-tt
+ pod SampleSDkomar
